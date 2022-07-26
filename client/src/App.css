@@ -1,0 +1,36 @@
+.app {
+    background-color: black;
+    color: aliceblue;
+}
+
+.header {
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    padding: 45px;
+}
+
+.venues {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.venue-item {
+    position: relative;
+}
+
+.venue-name {
+    width: 90%;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    top: 80%;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px black;
+}
